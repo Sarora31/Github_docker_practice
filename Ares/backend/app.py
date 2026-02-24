@@ -1,4 +1,4 @@
-from flask import Flask ,jsonify
+from flask import Flask ,jsonify, render_templatee
 from business import get_data
 
 app = Flask(__name__)
@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_worl():
 
-    return 'Hello World'
+    return render_templatee('index.html')
 
 @app.route('/api', methods= ["GET"])
 def api():

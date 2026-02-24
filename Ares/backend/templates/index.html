@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Sets the character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Inbuilt CSS</title>
+    
+    <!-- Internal CSS is defined within the <style> tags -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Sets the font for the entire body */
+            background-color: #f0f0f0; /* Sets the background color */
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto; /* Centers the container on the page */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px; /* Rounds the corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+        }
+        h1 {
+            color: #333; /* Sets the color for headings */
+        }
+        p {
+            color: #666; /* Sets the color for paragraphs */
+            line-height: 1.5;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none; /* Removes the default underline from links */
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3; /* Changes color when a user hovers over the button */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>
+            This is a simple webpage built using only HTML for structure and internal CSS for styling.
+        </p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+
+</body>
+</html>
