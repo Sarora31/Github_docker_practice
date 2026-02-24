@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_worl():
 
-    return render_templatee('index.html')
+    return render_template('index.html')
 
 @app.route('/api', methods= ["GET"])
 def api():
